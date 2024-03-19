@@ -7,3 +7,4 @@ image = driver.find_element(:id 'image')
 box = driver.find_element(:id 'box')
 
 driver.action.drag_and_drop(image, box).perform
+driver.quit
